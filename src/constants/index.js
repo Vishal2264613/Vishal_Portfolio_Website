@@ -78,9 +78,10 @@ export const PROJECTS = [
       "Tailwind",
       "Node.js",
     ],
+    link: "https://github.com/Vishal2264613/StakingX",
   },
   {
-    title: "Crowdfunding App",
+    title: "Crowdfunding dApp",
     purpose: "Fund raising app",
     image: project2,
     description:
@@ -92,6 +93,7 @@ export const PROJECTS = [
       "Tailwind",
       "Node.js",
     ],
+    link: "https://github.com/Vishal2264613/CrowdFunding_Blockchain",
   },
   {
     title: "BikeNGo",
@@ -106,6 +108,7 @@ export const PROJECTS = [
       "Tailwind",
       "Node.js",
     ],
+    link: "https://github.com/Vishal2264613/BikeRental_Blockchain",
   },
   {
     title: "PyramidBooks",
@@ -120,6 +123,7 @@ export const PROJECTS = [
       "Tailwind",
       "Node.js",
     ],
+    link: "https://github.com/Vishal2264613/OnlineBookStore_Blockchain",
   },
 ];
 
