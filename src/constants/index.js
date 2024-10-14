@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
+import project5 from "../assets/projects/project5.png";
 
 export const HERO_CONTENT = `Dedicated blockchain developer with expertise in creating and optimizing decentralized applications and smart contracts. `;
 
@@ -65,6 +66,21 @@ export const CERTIFICATIONS = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Faucet dApp",
+    purpose: "Test Token app",
+    image: project5,
+    description:
+      "This application provides a simple interface for requesting test tokens, which can be used for testing your smart contracts on various blockchain networks.",
+    technologies: [
+      "Solidity",
+      "Web3.js/Ether.js",
+      "ReactJS",
+      "Tailwind",
+      "Node.js",
+    ],
+    link: "https://github.com/Vishal2264613/Faucet_dApp",
+  },
   {
     title: "StakingX",
     purpose: "Reward generating app",
