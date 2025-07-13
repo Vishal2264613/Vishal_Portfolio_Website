@@ -2,7 +2,7 @@ import project0 from "../assets/projects/project0.png";
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
-import project4 from "../assets/projects/project4.png";
+// import project4 from "../assets/projects/project4.png";
 import project5 from "../assets/projects/project5.png";
 
 export const HERO_CONTENT = `Dedicated full stack developer with a passion for building responsive, scalable web applications using modern JavaScript frameworks and backend technologies.`;
