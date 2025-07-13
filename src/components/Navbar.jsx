@@ -39,7 +39,7 @@ const Navbar = () => {
             transition: { duration: 0.5 },
           }}
         >
-          <Link to="https://x.com/Vishalpawar00X">
+          <Link to="https://x.com/vp2264613">
             <FaSquareXTwitter />
           </Link>
         </motion.div>

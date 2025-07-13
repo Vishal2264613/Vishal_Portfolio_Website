@@ -1,8 +1,8 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/vishal.png";
+import profilePic from "../assets/Vishal1.JPG";
 import { motion } from "framer-motion";
 import { IoMdDownload } from "react-icons/io";
-import resume from "../assets/resume/Pawar_Vishal_Resume.pdf";
+import resume from "../assets/resume/Vishal_FullStackResume.pdf";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -32,7 +32,7 @@ const Hero = () => {
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500
             bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Blockchain Developer
+              Full Stack Web Developer
             </motion.span>
             <motion.p
               variants={container(0.6)}
@@ -57,15 +57,15 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 ">
-          <div className="flex justify-center ">
+        <div className="relative w-[200px] h-[600px] lg:w-1/2 lg:p-8">
+          <div className="flex justify-center items-center w-full h-full">
             <motion.img
-              className="rounded-2xl"
+              className="rounded-2xl w-full h-full object-cover object-top brightness-75"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.9 }}
               src={profilePic}
-              alt="kevin Rush"
+              alt="Profile pic"
             />
           </div>
         </div>

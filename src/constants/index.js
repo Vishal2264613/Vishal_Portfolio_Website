@@ -1,71 +1,89 @@
+import project0 from "../assets/projects/project0.png";
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
 import project5 from "../assets/projects/project5.png";
 
-export const HERO_CONTENT = `Dedicated blockchain developer with expertise in creating and optimizing decentralized applications and smart contracts. `;
+export const HERO_CONTENT = `Dedicated full stack developer with a passion for building responsive, scalable web applications using modern JavaScript frameworks and backend technologies.`;
 
-export const ABOUT_TEXT = `I am a passionate Blockchain Developer. \nI have dedicated my career to mastering the intricacies of blockchain technology.`;
-export const ABOUT_TEXT1 = `My foundation in computer science has equipped me with a robust understanding of algorithms, cryptography, and data structures, which are the pillars of my blockchain development expertise. `;
-export const ABOUT_TEXT2 = `I have design and implemented many decentralized applications (DApps) and smart contracts that enhance transparency and security for various industries. My main focus is on Ethereum and Solidity. I am driven by the potential of blockchain to revolutionize how we interact with digital assets and believe in its power to create trustless and efficient systems.`;
+export const ABOUT_TEXT = `I am a passionate Full Stack Web Developer dedicated to building high-performance, scalable, and user-friendly web applications.`;
+export const ABOUT_TEXT1 = `My foundation in computer science gives me a strong grasp of core principles such as algorithms, data structures, and system design — all of which guide my approach to writing clean, efficient, and maintainable code.`;
+export const ABOUT_TEXT2 = `I’ve designed and implemented dynamic full stack applications using technologies like React, Node.js, Express, and MongoDB. I enjoy building seamless frontend experiences while architecting powerful backend systems.`;
+export const ABOUT_TEXT3 = `I’m continuously exploring modern tools like Redux, Tailwind, CSS and I have a growing interest in frontend animation libraries like GSAP. I believe great web development lies at the intersection of design, functionality, and performance — and that’s where I strive to work every day.`;
 
 export const EXPERIENCES = [
   {
-    year: "May - Aug 2023",
-    role: "Blockchain Development Coop",
-    company: "VeriDiD Corp",
-    d1: `Collaborating with a multidisciplinary team of developers, designers and blockchain experts to conceptualize and implement core features of the VeriDID platform`,
-    d2: `Designing and developing smart contract using Solidity for Ethereum-based blockchain, networks, ensuring robust security and efficient execution of transaction.`,
-    d3: `Conducting through testing, debugging, and performance optimization to deliver a seamless user experience and maintain high standards of system integrity.`,
-    d4: `Contributing to the documentation and technical guides for developers and users, facilitating smooth adoption and integration of VeriDID blockchain solution.`,
-    technologies: ["Smart contract", "React.js", "Blockchain", "Typescript"],
+    year: "April - July 2025",
+    role: "Full Stack Web Development Industrial Training",
+    company: "ToXSL",
+    d1: `Collaborated with a cross-functional team of developers and designers to architect and build core features for a web-based platform.`,
+    d2: `Implemented responsive and dynamic frontend interfaces using React.js and TypeScript, ensuring clean UI/UX and seamless user interaction.`,
+    d3: `Built and integrated backend APIs using Node.js and Express, focusing on performance optimization, error handling, and security best practices.`,
+    d4: `Maintained technical documentation and contributed to knowledge sharing, enabling smooth onboarding and continued development.`,
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "REST APIs",
+    ],
   },
 ];
 export const CERTIFICATIONS = [
   {
-    year: "2022 - 2023",
-    role: "Blockchain development",
+    year: "2021 - 2022",
+    role: "Mobile & Web Development",
     company: "George Brown College",
-    description: `Gained knowledge and practical skills to design and deploy dApps using blockchain technology. Focused on specific areas like smart contract development, software and business pattern, full stack development, Architecture, Security practices, Laws and regulations.`,
+    description: `Acquired hands-on experience in designing and developing modern mobile and web applications. Curriculum emphasized full stack development, responsive UI/UX design, RESTful APIs, mobile-first strategies, application architecture, deployment, and security best practices.`,
     technologies: [
-      "Blockchain",
-      "Ethereum",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React Native",
+      "TypeScript",
+      "REST APIs",
+    ],
+  },
+  {
+    year: "2022 - 2023",
+    role: "Blockchain Full Stack Development",
+    company: "George Brown College",
+    description: `Gained in-depth knowledge and practical skills to design and deploy decentralized applications (dApps) using blockchain technology. The program also covered modern web and mobile development practices, including frontend and backend frameworks, full stack architecture, security, and legal considerations. Built real-world projects applying both blockchain and full stack development concepts.`,
+    technologies: [
       "Solidity",
       "Hardhat",
       "Metamask",
-      "MERN stack",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "React Native",
+      "TypeScript",
+      "Tailwind CSS",
     ],
-  },
-  {
-    year: "May - June 2024",
-    role: "Decentralized Finance",
-    company: "Duke University | Coursera",
-    description: `Learned in-demand skills from university and industry experts. Developed the deep undetstanding of Defi key concepts.`,
-    technologies: [
-      "Primitives",
-      "Infrastructure",
-      "FinanceSpecialization",
-      "Opportunities & Risks",
-    ],
-  },
-  {
-    year: "October 2022",
-    role: "Ethereum and solidity",
-    company: "Udemy",
-    description: `Build compelling blockchain application using ethereum blockchain. Design, test and deploy secure smart contracts. Learned the true purpose and capabilities of Ethereum and Solidity.`,
-    technologies: ["Smart contract", "Ether.js", "React.js", "Solidity"],
-  },
-  {
-    year: "September 2022",
-    role: "Blockchain basics",
-    company: "The State University of New York | Coursera",
-    description: `This course helped me to recognize the foundational concepts of blockchain, and apply these program concepts on the blockchain.`,
-    technologies: ["Cryptography", "Ethereum", "Bitcoin", "Blockchain"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "MA Baker",
+    purpose: "Bakery Website",
+    image: project0,
+    description:
+      "Developed a full-stack bakery website that includes a dynamic admin panel for managing products, orders, and customer data. The website provides a seamless user experience for browsing and purchasing baked goods while allowing administrators to efficiently handle backend operations.",
+    technologies: [
+      "ReactJS",
+      "Tailwind",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+    ],
+    link: "https://github.com/Vishal2264613/Bakery_Project",
+  },
   {
     title: "Faucet dApp",
     purpose: "Test Token app",
@@ -126,25 +144,10 @@ export const PROJECTS = [
     ],
     link: "https://github.com/Vishal2264613/BikeRental_Blockchain",
   },
-  {
-    title: "PyramidBooks",
-    purpose: "Books renting app",
-    image: project4,
-    description:
-      "Engineered a decentralized books rental service using blockchain technology to facilitate secure and transparent rental transactions. Utilized smart contracts to oversee book availability, rental processes, and user interactions with integrity.",
-    technologies: [
-      "Solidity",
-      "Web3.js/Ether.js",
-      "ReactJS",
-      "Tailwind",
-      "Node.js",
-    ],
-    link: "https://github.com/Vishal2264613/OnlineBookStore_Blockchain",
-  },
 ];
 
 export const CONTACT = {
-  address: "497 Dawes Rd, East York, ON M4B 2G5 ",
-  phoneNo: "+1 647-609-3069 ",
-  email: "vp2264613@gmail.com",
+  address: "Sector-24 Chandigarh, India",
+  phoneNo: "+91 8288920876",
+  email: "pawarvishal28797@gmail.com",
 };

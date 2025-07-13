@@ -1,7 +1,8 @@
-import aboutImg from "../assets/about2.jpg";
+import aboutImg from "../assets/vishal.png";
 import { ABOUT_TEXT } from "../constants";
 import { ABOUT_TEXT1 } from "../constants";
 import { ABOUT_TEXT2 } from "../constants";
+import { ABOUT_TEXT3 } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
   return (
@@ -31,6 +32,7 @@ const About = () => {
             <p className="my-2 max-w-xl py-4 text-lg">{ABOUT_TEXT}</p>
             <p className="my-2 max-w-xl py-4 text-lg">{ABOUT_TEXT1}</p>
             <p className="my-2 max-w-xl py-4 text-lg">{ABOUT_TEXT2}</p>
+            <p className="my-2 max-w-xl py-4 text-lg">{ABOUT_TEXT3}</p>
           </div>
         </motion.div>
       </div>

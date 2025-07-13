@@ -47,15 +47,17 @@ const Experience = () => {
                   <p className="mb-4 text-neutral-400">{experiences.d2}</p>
                   <p className="mb-4 text-neutral-400">{experiences.d3}</p>
                   <p className="mb-4 text-neutral-400">{experiences.d4}</p>
-                  {experiences.technologies.map((tech, index) => (
-                    <span
-                      key={index}
-                      className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1
-                text-sm font-medium text-purple-800"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  <span className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mt-4">
+                    {experiences.technologies.map((tech, index) => (
+                      <p
+                        key={index}
+                        className="h-10 w-full rounded bg-neutral-900 flex items-center justify-center
+                 text-sm font-medium text-purple-800 text-center"
+                      >
+                        {tech}
+                      </p>
+                    ))}
+                  </span>
                 </motion.div>
               </div>
             ))}
@@ -93,15 +95,20 @@ const Experience = () => {
                   <p className="mb-4 text-neutral-400">
                     {certification.description}
                   </p>
-                  {certification.technologies.map((tech, index) => (
-                    <span
-                      key={index}
-                      className="mr-1 mt-4 rounded bg-neutral-900 px-2 py-1
-                text-sm font-medium text-purple-800"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  <span
+                    key={index}
+                    className="grid w-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 mt-4"
+                  >
+                    {certification.technologies.map((tech, index) => (
+                      <p
+                        key={index}
+                        className="h-10 w-full rounded bg-neutral-900 px-2 flex items-center justify-center
+                 text-sm font-medium text-purple-800 text-center"
+                      >
+                        {tech}
+                      </p>
+                    ))}
+                  </span>
                 </motion.div>
               </div>
             ))}
