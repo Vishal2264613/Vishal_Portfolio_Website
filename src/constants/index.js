@@ -147,7 +147,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Sector-24 Chandigarh, India",
+  address: "Chandigarh, India",
   phoneNo: "+91 8288920876",
   email: "pawarvishal28797@gmail.com",
 };
