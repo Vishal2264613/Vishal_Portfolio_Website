@@ -1,4 +1,4 @@
-import project0 from "../assets/projects/project0.png";
+import project6 from "../assets/projects/project6.png";
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
@@ -71,7 +71,7 @@ export const PROJECTS = [
   {
     title: "MA Baker",
     purpose: "Bakery Website",
-    image: project0,
+    image: project6,
     description:
       "Developed a full-stack bakery website that includes a dynamic admin panel for managing products, orders, and customer data. The website provides a seamless user experience for browsing and purchasing baked goods while allowing administrators to efficiently handle backend operations.",
     technologies: [
